@@ -1,4 +1,3 @@
 function doSomething() {
-
-    $("h").innerHTML = alert("Enter your text: ");
+    $("h").innerHTML = prompt("Enter your text: ");
 }
