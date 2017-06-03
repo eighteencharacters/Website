@@ -1,4 +1,3 @@
 function doSomething() {
-    var t = prompt("Enter your text: ");
-    document.getElementById("h").innerHTML = t;
+    document.getElementById("h").innerHTML = prompt("Enter your text: ");
 }
