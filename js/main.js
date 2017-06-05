@@ -1,3 +1,3 @@
 function doSomething() {
-    document.getElementById("h").innerHTML = prompt("Enter your text: ");
+    $("#h").html(prompt("Enter your text: "));
 }
